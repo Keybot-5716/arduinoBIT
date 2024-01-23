@@ -16,6 +16,7 @@ void setup() {
   // Prueba bluetooth
   mySerial.begin(9600);
   mySerial.println("Hello world");
+  Serial.begin(9600);
 }
 
 void loop() {
